@@ -7,6 +7,7 @@
 body { font-family: sans-serif; padding: 16px; line-height: 1.6; }
 h1 { color: #2c3e50; }
 h2 { margin-top: 24px; }
+footer { margin-top: 40px; font-size: 12px; color: gray; }
 </style>
 </head>
 <body>
@@ -19,39 +20,92 @@ This app automatically generates match pairings and supports fair game managemen
 </p>
 
 <h2>■ Basic Usage</h2>
-<ol>
-<li>Add members</li>
-<li>Set the number of courts</li>
-<li>Start the match</li>
-<li>Press "Next" to proceed to the next match</li>
-</ol>
+
+<h3>・Member Registration</h3>
+<p>
+You can register members as individuals (1 person) or pairs (2 people).<br>
+To register a pair, enable the "Pair" option.<br>
+This is intended for fixed pairs.
+</p>
+
+<p>
+Example:<br>
+Player A (single)<br>
+Player B & Player C (pair)
+</p>
+
+<h3>・Member List</h3>
+<p>
+Registered members can be saved as a list.<br>
+Saved lists can be loaded later for quick setup.
+</p>
+
+<p>
+After registering members, save them as a list.<br>
+You can load a saved list to quickly restore all members.
+</p>
+
+<p>
+*Data is stored locally on the device.
+</p>
+
+<h3>・Court Settings</h3>
+<p>
+You can add courts using the "+" button.<br>
+To remove a court, press the "-" button.<br>
+*At least one court is required and cannot be removed.
+</p>
+
+<p>
+You can set the match type for each court (Singles / Doubles / Triples).<br>
+Each type requires a specific number of players.<br>
+If there are not enough players, matches cannot be started.
+</p>
+
+<h3>・Start Match</h3>
+<p>
+Press "Start" to generate match pairings.
+</p>
+
+<h3>・During Match</h3>
+<p>
+Press "Next" to move to the next match.<br>
+You can adjust courts and members during matches.<br>
+If there are not enough players, adjust accordingly.
+</p>
 
 <h2>■ Court Names</h2>
 <p>
-You can assign names to each court. If not set, default names like "Court X" will be used.
+You can assign names to courts.<br>
+If not set, default names like "Court X" will be used.
 </p>
 
 <h2>■ Auto Save</h2>
 <p>
-The app automatically saves the current state. You can resume your session after restarting.
+The app automatically saves the current state.<br>
+You can resume after restarting the app.
 </p>
 
 <h2>■ Restore Behavior</h2>
 <ul>
 <li>Short time: Automatically restored</li>
-<li>After some time: Confirmation dialog will appear</li>
+<li>After some time: Confirmation dialog appears</li>
 <li>After long time: Automatically reset</li>
 </ul>
 
 <h2>■ Courts May Be Reduced</h2>
 <p>
-To ensure fairness in match and rest counts for all players, the number of active courts may be temporarily reduced depending on the situation.
+To ensure fairness in match and rest counts, the number of active courts may be temporarily reduced.
 </p>
 
 <h2>■ Disclaimer</h2>
 <p>
 The developer is not responsible for any issues caused by using this app.
 </p>
+
+<footer>
+© 2026 Keiz Lab.
+</footer>
 
 </body>
 </html>
